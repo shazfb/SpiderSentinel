@@ -67,7 +67,7 @@ public class BoneConstraintController : MonoBehaviour
         }
     }
 
-    IEnumerator MoveLegOverTime()
+    public IEnumerator MoveLegOverTime()
     {
         Debug.Log("Coroutine started");
         isCoroutineRunning = true;
